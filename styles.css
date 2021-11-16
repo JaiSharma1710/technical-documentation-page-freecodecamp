@@ -1,0 +1,152 @@
+/* elements */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+footer{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+hr{
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 1.3rem;
+  color: grey;
+}
+
+li{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+/* id's */
+#introduction{
+  width: 80%;
+  margin: auto;
+}
+
+#Whatyoushouldalreadyknow{
+  width: 80%;
+  margin: auto;
+}
+
+#JavaScriptandJava{
+  width: 80%;
+  margin: auto;
+}
+
+#Helloworld{
+  width: 80%;
+  margin: auto;
+}
+
+#Variables{
+  width: 80%;
+  margin: auto;
+}
+
+/* classes */
+.main-container{
+  width: 100%;
+  /* height: 500px; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.left-container{
+  /* background-color: yellow; */
+  width: 20%;
+  border-right: 1px solid black;
+}
+
+.right-container{
+  /* background-color: green; */
+  width: 80%;
+}
+
+.heading{
+  font-size: 2rem;
+
+}
+
+
+.main-section{
+  margin-left: 2rem;
+}
+
+.code-section{
+border-radius: 1rem;
+  background-color: #EDEDED;
+  padding: 0.5rem;
+}
+
+.code-section p{
+  color: black;
+}
+
+
+/* media */
+
+@media (max-width:1825px) {
+
+  .left-container{
+    width:25%;
+  }
+
+  .right-container{
+    width:75%;
+  }
+
+}
+
+@media (max-width:1470px) {
+
+  .left-container{
+    width:30%;
+  }
+
+  .right-container{
+    width:70%;
+  }
+
+}
+
+@media (max-width:1200px){
+
+.main-container{
+  flex-direction: column;
+}
+
+.left-container{
+  width: 100%;
+}
+
+.right-container{
+  width: 100%;
+}
+
+.heading{
+  text-align: center;
+}
+
+}
